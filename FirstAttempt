@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+//Until I come up with the WHY of this problem, I will use sample variables
+
+int main()
+{
+	//names of the inputs for now
+	int sample1, sample2;
+		//names of the product and summation
+	int multip, addit;
+	
+	//This is where the user inputs the two values
+	cout << "Please enter value number 1 here:\n";
+	cin >> sample1;
+	cout << "Please enter value number 2 here:\n";
+	cin >> sample2;
+
+	//This is where the muliplication happens
+	multip = sample1 * sample2;
+	cout << "Congratulations! You have the product of: ";
+	cout << multip;
+	cout << "!!\n";
+
+	//This is where the addition happems
+	addit = sample1 + sample2;
+	cout << "Excellent! You have the sum of: ";
+	cout << addit;
+	cout << "!!\n";
+		cout << "Amazing job!\n" <<endl <<endl;
+
+		system("pause");
+		return 0;
+
+}
